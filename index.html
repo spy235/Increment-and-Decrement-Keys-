@@ -1,49 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The-VueLamp-with-js</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<script src="https://kit.fontawesome.com/de728b3153.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="cont" >
-        <nav class="nav-bar" >
-            <div class="logo">
-                <img id="menu"  src="images/menu.png">
-                <img id="logo" src="images/logo.png" alt="">
-            </div>
-            <ul class="links" >
-                <li><a href="">Latest</a></li>
-                <li><a href="">Modren</a></li>
-                <li><a href="">Contemporary</a></li>
-                <li><a href="">Affordable</a></li>
-                <li><a href="#">
-                    <button type="button" onclick="tooglebtn()" id="btn"  > <span class="cir" ></span></button>
-                </a></li>
-            </ul>
-        </nav>
-        <div class="lyt">
-            <img id="lyt1" onclick=""  src="images/lamp.png" alt="#">
-        </div>
-        <img id="lyt2" class="lyt2"  onclick="tooglebtn()" src="images/light.png" alt="#">
-        <h1 class="hd" >Lighting <br> Darkness </h1>
-        <div class="effect"></div>
-        <div class="texts">
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis laborelorem
+	<div class="container" id="nyt" >
+		<div id="nav-bar" class="nav-bar">
+			<ul class="links" >
+				<li class="head" ><a href="#">Purple Haze</a></li>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Skills</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Contact</a></li>
+				<div class="icons" >
+					<div class="moon">
+						<i id="moon" onclick="nyt()" class="fas fa-moon"></i>
+					</div>
+					<div id="pall" >
+						<i  onclick="color()"  class="fas fa-palette"></i>
+						<i class="fas fa-sort-down"></i>
+						<div class="color-box" id="color-box" >
+							<p id="col1" > Color_Switch</p>
+							<div onclick="back()" id="blue" class="blue" ></div>
+							<div onclick="ba()"  id="yellow" class="yellow" ></div>
+							<div onclick="bac()" id="purple" class="purple" ></div>
+							<div onclick="b()" id="green" class="green" ></div>
+						</div>
+					</div>
 
-            </p>
-            <button class ="but" type="button" > Explore The New  </button>
-        </div>
-        
-        
-    </div>
-    <script src="script.js" ></script>
-    
+				</div>
+			</ul>
+		</div>
+</div>
+<script src="script.js" >
+</script>
 </body>
 </html>
