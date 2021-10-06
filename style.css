@@ -1,131 +1,62 @@
 *{
-    padding: 0;
     margin: 0;
-}
-.background{
-    background-color:rgb(236, 236, 16);
-    background-position: center;
-    max-width: 100%;
-    background-size: cover;
-    height: 139vh;
-    
-}
-.container{
-    width: 61vh;
-
-}
-.box{
-    position:absolute;
-background-color: wheat;
-    width: 125vh;
-    height: 75vh;
-    right: 40vh;
-    top: 15vh ;
-    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19),0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
-}
-
-.dp{
     padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-color:#343f4f;
+}
+.wrapper{
+    background-color:aliceblue;
     display: flex;
-    position:absolute;
-    left: 10vh;
-    top: 19vh;
-    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19),0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
-    width: 42vh;
-
-
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 10%;
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    border-radius: 23px;
 }
-.red{
-    background-color:rgb(236, 236, 16);
-    width: 30vh;
-    height: 75vh;
-    color: black;
-}
-.gith{
-    position:absolute;
-    left: 2vh;
-    top:2vh;
-    color: black;
+.wrapper span{
+    width: 100%;
+    align-items: center;
 
 }
-.insta{
-    position:absolute;
-    left: 40vh;
-    top:2vh;
-    color: black;
+span{
+    display: flex;
+    justify-content: center;
+    left: 60px;
+    font-weight: 600;
+    font-size: 40px;
+    cursor: pointer;
+}
+.wrapper span.num{
+    font-size: 35px;
+    border-right: solid rgba(0, 0, 0, 0.2);
+    border-left: solid rgba(0, 0, 0, 0.2);
+}
+.wrapper span.minus{
+    font-size: 35px;
+    border-right: solid rgba(0, 0, 0, 0.2);
+}
+span.minus:hover{
+    background-color: rgb(255, 109, 109);
+    transition: 2s;
 
 }
-.cp{
-    position:absolute;
-    left: 75vh;
-    top:2vh;
-    color: black;
+span.plus:hover{
+    background-color: rgb(95, 230, 124);
+    transition: 2s;
 
 }
-.reddit{
-    position:absolute;
-    left: 110vh;
-    top:2vh;
+span.minus{
+    border-radius: 100px;
 }
-.redd{
-    width: 12vh;
-}
-.reddit:hover{
-    padding: 1vh;
-
-}
-.abt{
-    position:absolute;
-    right: 3vh;
-    top: 40vh;
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 5vh;
-  
-}
-.name{
-    position:absolute;
-    right: 15vh;
-    top: 20vh;
-    font-family: 'Jua', sans-serif;
-    font-size: 6vh;
-    text-decoration: none;
-}
- h1:hover{
-    color: red;
-}
- .gith :hover{
-    color: red;
-}
-.cp :hover{
-    color: red;
-}
-.redd :hover{
-    color: red;
-    padding: 2vh;
-}
-.insta :hover{
-    color: red;
-}
-.gif{
-
-    width: 50vh;
-    position:absolute;
-    top: 23vh;
-    left: 0vh;
-}
-.graph{
-    width: 40vh;
-    position:absolute;
-    top: 26vh;
-    right: 0vh;
-}
-.hand{
-    width: 30vh;
-    position:absolute;
-    top: 75vh;
-    right: 135vh;
-}
-.dp:hover{
-    padding: 2vh;
-
+span.plus{
+    border-radius: 100px;
 }
